@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.5146cf83.css",
+    "main.js": "/my-portfolio/static/js/main.f1ae9a42.js",
+    "static/media/reactgram.png": "/my-portfolio/static/media/reactgram.5e9d0b856a35201ff983.png",
+    "static/media/mini-blog.png": "/my-portfolio/static/media/mini-blog.639a5d277c8ab02b2e3f.png",
+    "static/media/product-preview-card.png": "/my-portfolio/static/media/product-preview-card.46ee8c5165490d8738d9.png",
+    "static/media/nlw-esports.png": "/my-portfolio/static/media/nlw-esports.c402be4073f82fb4ca81.png",
+    "static/media/intro-section-dropdown.png": "/my-portfolio/static/media/intro-section-dropdown.e71580f84ba1050583a1.png",
+    "static/media/professional-photo.jpg": "/my-portfolio/static/media/professional-photo.3eeb0c4a2a7820a441ec.jpg",
+    "static/media/simple-market.png": "/my-portfolio/static/media/simple-market.6f8225568c62499fd45b.png",
+    "static/media/background-color-picker.png": "/my-portfolio/static/media/background-color-picker.14f5f2e1fc4fd144e2cc.png",
+    "static/media/secret-word.png": "/my-portfolio/static/media/secret-word.94545e9510783b8c4dc8.png",
+    "static/media/advice-generator-app.png": "/my-portfolio/static/media/advice-generator-app.651247a0798d9034a4bd.png",
+    "static/media/brazil.png": "/my-portfolio/static/media/brazil.99c41be9d6f55b83a35a.png",
+    "static/media/united-states.png": "/my-portfolio/static/media/united-states.a1fc118ed9c993844853.png",
+    "index.html": "/my-portfolio/index.html",
+    "main.5146cf83.css.map": "/my-portfolio/static/css/main.5146cf83.css.map",
+    "main.f1ae9a42.js.map": "/my-portfolio/static/js/main.f1ae9a42.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5146cf83.css",
+    "static/js/main.f1ae9a42.js"
+  ]
+}
