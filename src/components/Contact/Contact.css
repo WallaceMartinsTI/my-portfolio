@@ -1,0 +1,39 @@
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.contactItem {
+  width: 25rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  transition: .3s;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.contactItem p {
+  margin-left: .5rem;
+}
+
+.contactItem:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.copy {
+  margin-left: 2rem;
+  width: 4rem;
+  border: none;
+  color: #FFFFFF;
+  background-color: transparent;
+}
+
+.hide {
+  display: none;
+}

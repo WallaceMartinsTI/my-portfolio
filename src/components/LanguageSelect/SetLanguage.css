@@ -1,0 +1,40 @@
+.language {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.language p {
+  margin-left: .5rem;
+}
+
+.brazil,
+.usa {
+  display: flex;
+  align-items: center;
+  border: solid 1px #000000;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.brazil:hover,
+.usa:hover {
+  border: solid 1px #F6FCFF;
+  color: #F6FCFF;
+  background-color: #000000;
+}
+
+.selected {
+  border: solid 1px #F6FCFF;
+  color: #F6FCFF;
+  background-color: #000000;
+}
+
+.language img {
+  width: 2rem;
+  height: 2rem;
+}
