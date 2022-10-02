@@ -3,7 +3,7 @@ const messages = {
     translations: {
       bio: {
         firstPart: `Hi, my name is Wallace Martins, I am 23 years old,
-        I study Computer Science at Faculdade Estácio de Sá, I'm in the 
+        I study Computer Science at Estácio de Sá College, I'm in the 
         5th period with graduation scheduled for July/2024`,
 
         secondPart: `I've worked with support in the IT area,
