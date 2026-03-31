@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wallace Martins — Android Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">wm.dev<span style="color:var(--green)">_</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">Sobre</a></li>
+      <li><a href="#experience">Exp.</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projetos</a></li>
+      <li><a href="#contact">Contato</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg-glow"></div>
+    <div class="hero-bg-glow2"></div>
+    <div class="hero-inner">
+      <p class="hero-tag">Disponível para novas oportunidades</p>
+      <h1>Wallace<br /><span class="accent">Martins</span></h1>
+      <p class="hero-subtitle">
+        Desenvolvedor Android com experiência em Kotlin, Jetpack Compose, Clean Architecture e Firebase.<br />
+        Apaixonado por performance, boas práticas e código elegante.
+      </p>
+      <div class="hero-ctas">
+        <a href="#projects" class="btn btn-primary">Ver projetos →</a>
+        <a href="#contact" class="btn btn-outline">Entre em contato</a>
+      </div>
+      <div class="hero-stats">
+        <div>
+          <div class="stat-value">5+</div>
+          <div class="stat-label">Anos de experiência</div>
+        </div>
+        <div>
+          <div class="stat-value">82</div>
+          <div class="stat-label">Repositórios públicos</div>
+        </div>
+        <div>
+          <div class="stat-value">Kotlin</div>
+          <div class="stat-label">Linguagem principal</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-inner">
+      <div class="section-header fade-in">
+        <span class="section-num">01.</span>
+        <h2>Sobre <span>mim</span></h2>
+      </div>
+      <div class="fade-in" style="max-width:680px; font-size:0.95rem; line-height:1.9; color:var(--muted);">
+        <p style="margin-bottom:1rem;">
+          Sou <strong style="color:var(--text)">Wallace Martins</strong>, desenvolvedor Android de Betim/MG, formado em Ciência da Computação pela Estácio de Sá (2024). Com mais de 5 anos no setor de tecnologia, hoje atuo no desenvolvimento de apps nativos Android na <strong style="color:var(--accent2)">Leal Apps LTDA</strong>.
+        </p>
+        <p style="margin-bottom:1rem;">
+          Tenho experiência prática com <strong style="color:var(--text)">Kotlin, Jetpack Compose, MVVM/MVI, Clean Architecture, Hilt, Retrofit e Firebase</strong>. Gosto de refatorar código legado, criar features novas e integrar APIs para entregar produtos que realmente funcionam bem.
+        </p>
+        <p>
+          Além do Android, tenho background em suporte técnico avançado (IBM Maximo), Python, SQL e desenvolvimento web com React. Inglês intermediário e sempre estudando.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="section-inner">
+      <div class="section-header fade-in">
+        <span class="section-num">02.</span>
+        <h2>Experiência <span>profissional</span></h2>
+      </div>
+      <div class="timeline">
+
+        <div class="job fade-in">
+          <p class="job-period">07/2025 — Atual</p>
+          <p class="job-title">Desenvolvedor Android</p>
+          <p class="job-company">Leal Apps LTDA</p>
+          <p class="job-desc">Atuação nos apps PossoComer e AlimenteSe — refatorações Java → Kotlin, criação de novas features e integrações com APIs externas. Foco em performance e usabilidade.</p>
+          <div class="job-tags">
+            <span class="tag">Kotlin</span>
+            <span class="tag">Jetpack Compose</span>
+            <span class="tag">Hilt</span>
+            <span class="tag">Retrofit</span>
+            <span class="tag">Firebase</span>
+            <span class="tag">Clean Architecture</span>
+            <span class="tag">Arquitetura Modular</span>
+          </div>
+        </div>
+
+        <div class="job fade-in">
+          <p class="job-period">04/2025 — 06/2025</p>
+          <p class="job-title">Desenvolvedor Android</p>
+          <p class="job-company">Dimensa S.A</p>
+          <p class="job-desc">Desenvolvimento de novas funcionalidades com Jetpack Compose, manutenção de sistemas e integração com APIs financeiras. Squads multifuncionais com times de produto e design.</p>
+          <div class="job-tags">
+            <span class="tag">Kotlin</span>
+            <span class="tag">MVVM/MVI</span>
+            <span class="tag">Coroutines</span>
+            <span class="tag">StateFlow</span>
+            <span class="tag">Koin</span>
+            <span class="tag">APIs Financeiras</span>
+          </div>
+        </div>
+
+        <div class="job fade-in">
+          <p class="job-period">08/2022 — 03/2025</p>
+          <p class="job-title">Analista de Suporte</p>
+          <p class="job-company">Bentley Systems Brasil LTDA</p>
+          <p class="job-desc">Configuração e customização do IBM Maximo, desenvolvimento de scripts de automação em Python, criação de relatórios BIRT e queries SQL avançadas para clientes corporativos.</p>
+          <div class="job-tags">
+            <span class="tag">IBM Maximo</span>
+            <span class="tag">Python</span>
+            <span class="tag">SQL</span>
+            <span class="tag">Java</span>
+            <span class="tag">BIRT Reports</span>
+          </div>
+        </div>
+
+        <div class="job fade-in">
+          <p class="job-period">11/2020 — 03/2022</p>
+          <p class="job-title">Técnico de TI</p>
+          <p class="job-company">Powercoat Tratamento de Superfícies LTDA</p>
+          <p class="job-desc">Suporte técnico, manutenção de sistemas, instalação e configuração de softwares, suporte remoto a colaboradores de outras unidades.</p>
+          <div class="job-tags">
+            <span class="tag">Suporte Técnico</span>
+            <span class="tag">Redes</span>
+            <span class="tag">Hardware</span>
+            <span class="tag">Atendimento Remoto</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-inner">
+      <div class="section-header fade-in">
+        <span class="section-num">03.</span>
+        <h2>Tech <span>stack</span></h2>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-card fade-in">
+          <div class="skill-card-icon">🤖</div>
+          <p class="skill-card-title">Android</p>
+          <ul class="skill-list">
+            <li>Kotlin</li>
+            <li>Jetpack Compose</li>
+            <li>XML Layouts</li>
+            <li>MVVM / MVI / Clean Arch</li>
+            <li>Hilt / Koin</li>
+            <li>Retrofit / OkHttp</li>
+            <li>Coroutines / Flow</li>
+          </ul>
+        </div>
+
+        <div class="skill-card fade-in">
+          <div class="skill-card-icon">🔥</div>
+          <p class="skill-card-title">Firebase</p>
+          <ul class="skill-list">
+            <li>Authentication</li>
+            <li>Firestore</li>
+            <li>Storage</li>
+            <li>Cloud Functions</li>
+            <li>Crashlytics</li>
+          </ul>
+        </div>
+
+        <div class="skill-card fade-in">
+          <div class="skill-card-icon">🧪</div>
+          <p class="skill-card-title">Testes</p>
+          <ul class="skill-list">
+            <li>JUnit</li>
+            <li>Mockito</li>
+            <li>Espresso</li>
+          </ul>
+        </div>
+
+        <div class="skill-card fade-in">
+          <div class="skill-card-icon">🌐</div>
+          <p class="skill-card-title">Web & Backend</p>
+          <ul class="skill-list">
+            <li>HTML / CSS / JavaScript</li>
+            <li>React</li>
+            <li>Python (Django)</li>
+            <li>Node.js</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+
+        <div class="skill-card fade-in">
+          <div class="skill-card-icon">⚙️</div>
+          <p class="skill-card-title">Ferramentas & Infra</p>
+          <ul class="skill-list">
+            <li>Git / GitHub</li>
+            <li>Linux (Ubuntu/Mint)</li>
+            <li>IBM Maximo</li>
+            <li>Arquitetura Modular</li>
+            <li>Metodologia Ágil</li>
+          </ul>
+        </div>
+
+        <div class="skill-card fade-in">
+          <div class="skill-card-icon">🎓</div>
+          <p class="skill-card-title">Formação</p>
+          <ul class="skill-list">
+            <li>Bacharelado em Ciência da Computação</li>
+            <li>Estácio de Sá (2024)</li>
+            <li>Inglês Intermediário</li>
+            <li>CNH A e B</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-inner">
+      <div class="section-header fade-in">
+        <span class="section-num">04.</span>
+        <h2>Projetos <span>em destaque</span></h2>
+      </div>
+
+      <div class="carousel-wrapper fade-in">
+        <div class="carousel-track-outer">
+          <div class="carousel-track" id="carouselTrack">
+
+            <!-- Card 1 -->
+            <div class="project-card">
+              <div class="project-card-top">
+                <div class="project-icon">🏋️</div>
+                <a href="https://github.com/WallaceMartinsTI/GYMTrack" target="_blank" rel="noopener" class="project-link">Ver no GitHub ↗</a>
+              </div>
+              <p class="project-name">GYMTrack</p>
+              <p class="project-desc">Aplicativo para auxiliar o usuário em treinos de musculação. Conta com sistema de autenticação e interface amigável e fácil de utilizar, permitindo gerenciar rotinas de exercícios de forma prática.</p>
+              <div class="job-tags">
+                <span class="tag">Kotlin</span>
+                <span class="tag">Android</span>
+                <span class="tag">Firebase Auth</span>
+              </div>
+              <div class="project-lang">
+                <span class="lang-dot" style="background:#A97BFF;"></span> Kotlin
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="project-card">
+              <div class="project-card-top">
+                <div class="project-icon">🎬</div>
+                <a href="https://github.com/WallaceMartinsTI/Movie2You" target="_blank" rel="noopener" class="project-link">Ver no GitHub ↗</a>
+              </div>
+              <p class="project-name">Movie2You</p>
+              <p class="project-desc">Integração com a API do The Movie DB para exibição de filmes e tela de detalhes. Projeto focado em boas práticas de consumo de APIs REST no Android com layout limpo e responsivo.</p>
+              <div class="job-tags">
+                <span class="tag">Kotlin</span>
+                <span class="tag">Retrofit</span>
+                <span class="tag">TMDB API</span>
+                <span class="tag">MVVM</span>
+              </div>
+              <div class="project-lang">
+                <span class="lang-dot" style="background:#A97BFF;"></span> Kotlin · ⭐ 1
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="project-card">
+              <div class="project-card-top">
+                <div class="project-icon">🚗</div>
+                <a href="https://github.com/WallaceMartinsTI/ShopperRotas" target="_blank" rel="noopener" class="project-link">Ver no GitHub ↗</a>
+              </div>
+              <p class="project-name">ShopperRotas</p>
+              <p class="project-desc">Frontend nativo Android de uma aplicação de transporte particular que interage com uma API simulada. Funcionalidades de solicitação de viagens e seleção de motorista, com foco em UX fluida.</p>
+              <div class="job-tags">
+                <span class="tag">Kotlin</span>
+                <span class="tag">Jetpack Compose</span>
+                <span class="tag">API REST</span>
+              </div>
+              <div class="project-lang">
+                <span class="lang-dot" style="background:#A97BFF;"></span> Kotlin · ⭐ 1
+              </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="project-card">
+              <div class="project-card-top">
+                <div class="project-icon">🐉</div>
+                <a href="https://github.com/WallaceMartinsTI/AgileDex" target="_blank" rel="noopener" class="project-link">Ver no GitHub ↗</a>
+              </div>
+              <p class="project-name">AgileDex</p>
+              <p class="project-desc">Aplicativo Android nativo que consome a PokéAPI para listar e exibir detalhes de Pokémon. Construído em Kotlin com foco em performance de listagem e navegação fluida entre telas.</p>
+              <div class="job-tags">
+                <span class="tag">Kotlin</span>
+                <span class="tag">PokéAPI</span>
+                <span class="tag">RecyclerView</span>
+              </div>
+              <div class="project-lang">
+                <span class="lang-dot" style="background:#A97BFF;"></span> Kotlin · ⭐ 1
+              </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="project-card">
+              <div class="project-card-top">
+                <div class="project-icon">🎵</div>
+                <a href="https://github.com/WallaceMartinsTI/WCSMMusicPlayer" target="_blank" rel="noopener" class="project-link">Ver no GitHub ↗</a>
+              </div>
+              <p class="project-name">WCSM Music Player</p>
+              <p class="project-desc">Player de música Android completo com interface intuitiva e recursos avançados de reprodução. Projeto que combina design refinado com implementação técnica sólida usando ExoPlayer e MediaSession.</p>
+              <div class="job-tags">
+                <span class="tag">Kotlin</span>
+                <span class="tag">ExoPlayer</span>
+                <span class="tag">MediaSession</span>
+                <span class="tag">Notificações</span>
+              </div>
+              <div class="project-lang">
+                <span class="lang-dot" style="background:#A97BFF;"></span> Kotlin · ⭐ 1
+              </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="project-card">
+              <div class="project-card-top">
+                <div class="project-icon">💰</div>
+                <a href="https://github.com/WallaceMartinsTI/HealthyFinance" target="_blank" rel="noopener" class="project-link">Ver no GitHub ↗</a>
+              </div>
+              <p class="project-name">HealthyFinance</p>
+              <p class="project-desc">App de controle financeiro pessoal para rastrear receitas, despesas e investimentos com facilidade. Ajuda o usuário a ter uma visão clara da sua saúde financeira com gráficos e relatórios.</p>
+              <div class="job-tags">
+                <span class="tag">Kotlin</span>
+                <span class="tag">Room</span>
+                <span class="tag">Gráficos</span>
+                <span class="tag">Finanças</span>
+              </div>
+              <div class="project-lang">
+                <span class="lang-dot" style="background:#A97BFF;"></span> Kotlin · ⭐ 1
+              </div>
+            </div>
+
+          </div><!-- /carousel-track -->
+        </div><!-- /carousel-track-outer -->
+
+        <div class="carousel-controls">
+          <div class="carousel-dots" id="carouselDots"></div>
+          <div class="carousel-btns">
+            <button class="carousel-btn" id="prevBtn" aria-label="Anterior">←</button>
+            <button class="carousel-btn" id="nextBtn" aria-label="Próximo">→</button>
+          </div>
+        </div>
+      </div><!-- /carousel-wrapper -->
+
+      <div style="text-align:center; margin-top:2rem;">
+        <a href="https://github.com/WallaceMartinsTI?tab=repositories" target="_blank" rel="noopener" class="btn btn-outline">
+          Ver todos os 82 repositórios ↗
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-inner">
+      <div class="section-header fade-in">
+        <span class="section-num">05.</span>
+        <h2>Entre em <span>contato</span></h2>
+      </div>
+      <p class="fade-in" style="font-size:0.95rem; color:var(--muted); margin-bottom:2rem; max-width:500px; line-height:1.75;">
+        Aberto a novas oportunidades em desenvolvimento Android. Quer conversar sobre um projeto ou vaga? Me chame!
+      </p>
+      <div class="contact-grid fade-in">
+        <a href="mailto:wallace159santos@hotmail.com" class="contact-item">
+          <div class="contact-icon">✉️</div>
+          <div>
+            <p class="contact-label">Email</p>
+            <p class="contact-value">wallace159santos@hotmail.com</p>
+          </div>
+        </a>
+        <a href="https://www.linkedin.com/in/wallace-martins-ti/" target="_blank" rel="noopener" class="contact-item">
+          <div class="contact-icon">💼</div>
+          <div>
+            <p class="contact-label">LinkedIn</p>
+            <p class="contact-value">wallace-martins-ti</p>
+          </div>
+        </a>
+        <a href="https://github.com/WallaceMartinsTI" target="_blank" rel="noopener" class="contact-item">
+          <div class="contact-icon">🐙</div>
+          <div>
+            <p class="contact-label">GitHub</p>
+            <p class="contact-value">WallaceMartinsTI</p>
+          </div>
+        </a>
+        <a href="tel:+5531997897721" class="contact-item">
+          <div class="contact-icon">📱</div>
+          <div>
+            <p class="contact-label">Celular</p>
+            <p class="contact-value">(31) 99789-7721</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Desenvolvido por <span>Wallace Martins</span> · Betim, MG · 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
